@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post-compnent.component.css']
 })
 export class PostCompnentComponent implements OnInit {
+  title:string = "Lists of Posts";
   constructor(){
     
   }
