@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post-compnent',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostCompnentComponent implements OnInit {
   title:string = "Lists of Posts";
+  messagePost : string = 'Meessage Post';
+  @Input() fromParent:string | undefined;
   constructor(){
     
   }

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DemoGmail';
+  parentMessage : string = 'Message coming from the parent compoent'
 }
